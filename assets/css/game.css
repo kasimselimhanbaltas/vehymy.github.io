@@ -1,0 +1,170 @@
+body{
+    background: linear-gradient(135deg, #ca2a18, #ffffff, #5bc5e9);
+    transition: background 1s;
+    height: 95vh;
+}
+img{
+    pointer-events: none;
+}
+.gamespace{
+    margin-top: 5vh;
+    height: 85vh;
+    width: 80vw;
+    user-select: none;
+}
+.character{
+    width: 6vw;
+    height: 10vw;
+    top: 40%;
+    left: 20%;
+    transition: all 0s ease;
+}
+.character img{
+    width: 100%;
+}
+.enemy{
+    width: 3.5vw;
+    height: 10vw;
+    top: 40%;
+    left: 80%;
+}
+.enemy img{
+    width: 100%;
+}
+#mjolnir{
+    width: 3vw;
+    transform: translateX(-100%) translateY(50%);
+    visibility: hidden;
+    position: absolute;
+}
+
+
+#boc{
+    width: 3vw;
+    transform: translateX(-100%) translateY(50%);
+    visibility: hidden;
+    position: absolute;
+    transition: all .08s cubic-bezier(.39,0,1,-0.17);
+}
+
+#boo{
+    width: 3vw;
+    transform: translateX(-70%) translateY(-10%) rotate(90deg);
+    position: absolute;
+    visibility: hidden;
+    transition: all .1s linear;
+}
+#boc.animateL {
+  visibility: visible;
+  transform: translateX(-600%);
+}
+#boc.animateR {
+  visibility: visible;
+  transform: translateX(300%) ;
+}
+#axe{
+    width: 2vw;
+    transform: translateX(-100%);
+    visibility: hidden;
+    position: absolute;
+    transition: all .3s cubic-bezier(.39,0,1,-0.17);
+}
+#axe.animateL {
+  visibility: visible;
+  transform: translateX(-1600%) rotate(-720deg);
+}
+#axe.animateR {
+  visibility: visible;
+  transform: translateX(1200%) rotate(720deg);
+}
+
+#score{
+    z-index: 9;
+}
+#timer{
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+}
+#mybg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.7;
+    transform: translateX(-3.5%) translateY(-8%);
+}
+.progress {
+  height: 20px;
+  background-color: #ddd;
+}
+
+.top-panel .progress-bar {
+  height: 100%;
+  background-color: purple;
+  width: 100%;
+  opacity: 0.6;
+}
+#damage{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+#damage p{
+    margin: 0;
+    opacity: 1;
+}
+#playAgain{
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+#playAgain img{
+    width: 5vw;
+}
+#startGameBtn{
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background-color: transparent;
+    border: none;
+    opacity: 1;
+    z-index: 99;
+}
+#startGameBtn img{
+    width: 5vw;
+}
+#muteButton{
+    top: 0;
+    right: 0;
+}
+#unMuteButton{
+    top: 0;
+    right: 0;
+    display: none;
+}
+#controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#character-info{
+    position: absolute;
+    padding: 5px;
+    bottom: 5%;
+    left: 5%;
+    display: inline-block;
+}
+#character-info .progress-bar{
+    background-color: rgb(72, 176, 72);
+}
+#kratosRageBar{
+    margin: 50px;
+}
+#kratosRageBar .progress-bar{
+    background-color: red;
+}

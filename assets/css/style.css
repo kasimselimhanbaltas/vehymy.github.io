@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+header {
+    height: 7.5vh;
+}
+.hero {
+    height: 92.5vh;
+    background-color: #161616;
+}
+
+nav {
+    height: 7.5vh;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    display:flex;
+    padding: 0;
+}
+
+
+.brand {
+    margin-left: 5vw;
+    margin-top: 2vh;
+    height: 4vh;
+}
+.contacts img {
+    max-height: 3.5vh;
+    text-align: center;
+    padding: 0px;
+}
+
+
+nav .links {
+    margin-right: 40vw;
+    display: flex;
+    width: 20vmax;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.introduce {
+    /* background-color: rgb(199, 199, 199); */
+    width: auto;
+    position: relative;
+    top: 55%;
+    transform: translateY(-60%);
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+
+.introduce img {
+    max-width: 600px;
+    max-height: 450px;
+    /* transition: transform .5s; */
+}
+
+.introduce h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 50px ;
+    letter-spacing: 2px;
+    margin-top: -20vh;
+}
+
+.introduce h1 span {
+    color: darkred;
+}
+
+.introduce h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+/* .introduce img:hover {
+    transform:  translateX(5%);
+} */
+
+.about {
+    height: 50vh;
+    background-color: inherit;
+    text-align: center;
+}
+
+.about p {
+    margin-top: 5%;
+    line-height: 25px;
+}
+
+h2 {
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.footer {
+    height: 7.5vh;
+    display: fles;
+    align-items: center;
+    background-color: #212529;
+    position: relative;
+}
+
+.footer p{
+    position: absolute;
+    top: 2vh; left: 5vw;
+    color: white;
+}
+
+.aboutcontainer {
+    padding: 40px;
+    display: flex;
+}
+.about {
+    background-color: #161616;
+    height: 85vh;
+    text-align: center;
+    color: white;
+}
+.about h2 {
+    padding-top: 5vh;
+}
+
+.about p {
+    margin-top: 5vh;
+    line-height: 25px;
+}
+
+h2 {
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.skillscontainer {
+    margin: auto;
+    min-width: 40%;
+    padding: 0px auto;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.skillc{
+    padding: 0 40px;
+}
+.skill {
+    border: 10px groove silver;
+    border-radius: 10%;
+    width: 85px;
+    height: 100px;
+    position: relative;
+    padding: 0 5px;
+    margin: 10px 0;
+    transition: transform .5s;
+}
+
+.skill:hover {
+    transform: rotate(360deg);
+}
+
+.skill img {
+    max-height: 40px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.skill h3 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 15px;
+    transform: translateX(-5%);
+}
+
+.projectscontainer {
+    background-color: #161616;
+    height: 85vh;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.project-container {
+    margin-top: 5vh;
+    display: flex;
+}
+.image-container{
+    display: inline-block;
+    
+    padding: 10px 5px;
+}
+.projectscontainer img{
+    height: 40vh;
+}
+.project-navigation{
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ödev */
+
